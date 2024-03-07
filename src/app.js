@@ -56,7 +56,7 @@ fetchProducts()
 
 
 // port
-const httpServer = app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}`))
+const httpServer = app.listen(PORT, () => console.log(`listening on http://localhost:${PORT}/login`))
 
 httpServer.on('error', (error) => console.log(`Error en el servidor ${error}`))
 
